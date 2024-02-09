@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ecomercce:
+    image: mongo
+    container_name: app-mobil
+    restart: always
+    ports:
+      - 27017:27017
+    
+  
+
